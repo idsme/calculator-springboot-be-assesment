@@ -1,0 +1,14 @@
+### See all calculations using Custom Controller
+### Tradtional simpel way model == output currently no @jsonIgnore used.
+http://localhost:8080/manual/fe/calculations
+
+
+### with projections new way of doing DTO's
+### DTO projection view with just id & calculation.
+### A HATEOAS request allows you to not only send the data but also specify the related actions:
+### Thus making it easier to navigate the api during development and less documentation needed.
+### Just data needed by frontend nothing more for example
+http://localhost:8080/rest/calculations?projection=calculationfeoverview
+
+
+

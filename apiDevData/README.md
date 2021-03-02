@@ -1,0 +1,1 @@
+* Purpose of this dir is to have some data which you can add to your server quickly and not fill rest api by hand using swagger or 
